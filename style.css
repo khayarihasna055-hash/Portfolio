@@ -151,6 +151,11 @@ section { padding:100px 10%; }
 .exp-card, .form-card, .proj-card { background: var(--card-bg); padding:25px; border-radius:12px; border:1px solid #222; transition: transform 0.3s, box-shadow 0.3s; }
 .exp-card h3, .form-card h3, .proj-card h3 { font-size:1.4rem; margin-bottom:8px; }
 .exp-card p, .form-card p, .proj-card p { font-size:1.12rem; line-height:1.5; }
+.proj-card .btn {
+    display: inline-block;
+    margin-top: 15px;
+}
+
 
 /* Hover effect for all cards */
 .card:hover, .soft-card:hover, .exp-card:hover, .form-card:hover, .proj-card:hover {
